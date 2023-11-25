@@ -1,0 +1,16 @@
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<h1>
+    {{post.title}}
+</h1>
+
+<small> By: {{post.author.first_name}} {{post.author.last_name}}</small><br/>
+<hr>
+<div class="article">
+<br/>
+{{post.body}}
+<br/><br/>
+</div>
+<a class="back" href="{% url 'home' %}">Back</a>

@@ -1,0 +1,46 @@
+h1{
+    padding: 40px;
+    background-color: rgba(248, 229, 229, 0.578);
+    color:rgb(3, 3, 62);
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.left{
+    float:left;
+    width: auto;
+}
+.right{
+    float:right;
+    width: auto;
+}
+.blog{
+    background-color: rgba(248, 229, 229, 0.578);
+    padding: 40px;
+    margin-bottom: 20px;
+}
+li a {
+    color: rgb(13, 54, 13);
+   
+}
+ul{
+    color:rgb(29, 26, 26);
+
+}
+body{
+   
+    font-size: 20pt;
+    font-family: "Playfair Display", sans-serif;
+    text-align: center;
+    text-decoration: dashed;
+    background-image:url("b1.jpeg") ;
+    
+}
+.article{
+background-color: rgb(234, 246, 234);
+font-size: medium;
+}
+.back{
+    background-color: black;
+    color:beige;
+    fon
+}
